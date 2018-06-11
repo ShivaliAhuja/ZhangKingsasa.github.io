@@ -73,11 +73,11 @@ tensor.n"><meta name="keywords" content="AI, ACM, Linux"><meta content="width=de
 <td>如果当前tensor只有一个元素，那么返回python中这个元素的值</td>
 </tr>
 <tr>
-<td>np = tensor.numpy()</td>
+<td><code>np = tensor.numpy()</code></td>
 <td>把tensor赋值成numpy，且numpy会随着tensor的自增或自减改变，但其他不会改变，(很容易造成隐形bug，慎用)</td>
 </tr>
 <tr>
-<td>tensor = torch.from_numpy(np)</td>
+<td><code>tensor = torch.from_numpy(np)</code></td>
 <td>作用与上相反，慎用</td>
 </tr>
 <tr>
